@@ -16,3 +16,9 @@ console.log(highest);
 const Avengers = [{hero: 'Iron Man', budget: 5000}, {hero: 'Hulk', budget: 2000} ];
 const totalPower = Avengers.reduce((acc, curr) => acc + curr.budget, 0);
 console.log(totalPower); // 7000
+
+
+// 4. The Lost Treasure Map
+const pirate = ['left', 'right', 'forward'];
+const add = pirate.map(str =>  'Move ' + str);
+console.log(add);
