@@ -5,6 +5,11 @@ const house = students.map((name, index) => {
 });
 console.log(house);
 
+
+// 2. The Pokémon Filter
+
 const pokemons = [{name: 'Pikachu', CP: 320}, {name: 'Charizard', CP: 900}];
 const highest = pokemons.filter(pokemon => pokemon.CP > 500);
 console.log(highest);
+
+// 
