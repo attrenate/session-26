@@ -36,3 +36,28 @@ if (found) {
 
 
 // 6. The One Ring Inventory
+const inventory = [];
+const frodo = inventory.push('Lembas Bread', 'Ring'); inventory.pop();
+console.log(inventory);
+
+// 7. Spider-Man’s Web of Crime
+const crimes = ['Times Square', 'Central Park', 'Brooklyn'];
+crimes.sort();
+console.log(crimes);
+
+// 8. The Time Stone (Array Slicing)
+const strange = ['Dormammu Attack', 'Multiverse Glitch', 'Ancient One’s Warning', 'Time Loop', 'Portal Opening' ];
+const oneEvent = strange.slice(2, 5);
+console.log(oneEvent); // 👉 ['Dormammu Attack']
+
+// 9. Matrix Reloaded: Data Processing
+const matrixData = [3, 7, 15, 22];
+
+const binaryData = matrixData.map(num => num.toString(2));
+console.log('Binary Data:', binaryData); 
+
+
+const highestValue = matrixData.reduce((acc, curr) => curr > acc ? curr : acc, 0);
+console.log('Highest Value:', highestValue); 
+
+// 10. Cyberpunk City Data Processing
