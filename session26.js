@@ -22,3 +22,17 @@ console.log(totalPower); // 7000
 const pirate = ['left', 'right', 'forward'];
 const add = pirate.map(str =>  'Move ' + str);
 console.log(add);
+
+// 5. The Jedi Archives
+const jedi = ['Luke', 'Obi-Wan', 'Yoda', 'Anakin'];
+
+const found = jedi.find(name => name === 'Yoda');
+
+if (found) {
+  console.log('Master found!');
+} else {
+  console.log('Master not found!');
+}
+
+
+// 6. The One Ring Inventory
